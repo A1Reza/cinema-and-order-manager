@@ -61,18 +61,9 @@
 
                     <div class="card-body">
                         <h3 class="card-title">Inception</h3>
-
-                        <p class="card-text">
-                            Sci-Fi / Thriller
-                        </p>
-
-                        <p class="card-text">
-                            Duration: 148 min
-                        </p>
-
-                        <p class="card-text">
-                            Rating: 8.8/10
-                        </p>
+                        <p class="card-text">Sci-Fi / Thriller</p>
+                        <p class="card-text">Duration: 148 min</p>
+                        <p class="card-text">Rating: 8.8/10</p>
 
                         <p class="card-text">
                             A skilled thief enters people's dreams to steal valuable secrets.
@@ -103,18 +94,9 @@
 
                     <div class="card-body">
                         <h3 class="card-title">Interstellar</h3>
-
-                        <p class="card-text">
-                            Sci-Fi / Drama
-                        </p>
-
-                        <p class="card-text">
-                            Duration: 169 min
-                        </p>
-
-                        <p class="card-text">
-                            Rating: 8.7/10
-                        </p>
+                        <p class="card-text">Sci-Fi / Drama</p>
+                        <p class="card-text">Duration: 169 min</p>
+                        <p class="card-text">Rating: 8.7/10</p>
 
                         <p class="card-text">
                             A team of explorers travels through space to find a new home for humanity.
@@ -145,18 +127,9 @@
 
                     <div class="card-body">
                         <h3 class="card-title">The Dark Knight</h3>
-
-                        <p class="card-text">
-                            Action / Crime
-                        </p>
-
-                        <p class="card-text">
-                            Duration: 152 min
-                        </p>
-
-                        <p class="card-text">
-                            Rating: 9.0/10
-                        </p>
+                        <p class="card-text">Action / Crime</p>
+                        <p class="card-text">Duration: 152 min</p>
+                        <p class="card-text">Rating: 9.0/10</p>
 
                         <p class="card-text">
                             Batman faces a dangerous criminal who brings chaos to Gotham City.
@@ -187,18 +160,9 @@
 
                     <div class="card-body">
                         <h3 class="card-title">Avatar</h3>
-
-                        <p class="card-text">
-                            Sci-Fi / Adventure
-                        </p>
-
-                        <p class="card-text">
-                            Duration: 162 min
-                        </p>
-
-                        <p class="card-text">
-                            Rating: 7.8/10
-                        </p>
+                        <p class="card-text">Sci-Fi / Adventure</p>
+                        <p class="card-text">Duration: 162 min</p>
+                        <p class="card-text">Rating: 7.8/10</p>
 
                         <p class="card-text">
                             A marine explores a distant world and becomes involved in its conflict.
@@ -229,18 +193,9 @@
 
                     <div class="card-body">
                         <h3 class="card-title">Gladiator</h3>
-
-                        <p class="card-text">
-                            Action / Drama
-                        </p>
-
-                        <p class="card-text">
-                            Duration: 155 min
-                        </p>
-
-                        <p class="card-text">
-                            Rating: 8.5/10
-                        </p>
+                        <p class="card-text">Action / Drama</p>
+                        <p class="card-text">Duration: 155 min</p>
+                        <p class="card-text">Rating: 8.5/10</p>
 
                         <p class="card-text">
                             A Roman general becomes a gladiator and fights for justice and revenge.
@@ -271,18 +226,9 @@
 
                     <div class="card-body">
                         <h3 class="card-title">The Matrix</h3>
-
-                        <p class="card-text">
-                            Sci-Fi / Action
-                        </p>
-
-                        <p class="card-text">
-                            Duration: 136 min
-                        </p>
-
-                        <p class="card-text">
-                            Rating: 8.7/10
-                        </p>
+                        <p class="card-text">Sci-Fi / Action</p>
+                        <p class="card-text">Duration: 136 min</p>
+                        <p class="card-text">Rating: 8.7/10</p>
 
                         <p class="card-text">
                             A computer programmer discovers that reality is not what it seems.
@@ -320,6 +266,61 @@
                 <button class="btn btn-success">
                     Get Special
                 </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Cinema Information -->
+    <section class="container py-4">
+
+        <h2 class="mb-4">Cinema Information</h2>
+
+        <div class="row g-4">
+
+            <!-- Address -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3 class="h5">Address</h3>
+
+                <p>
+                    123 Cinema Street<br>
+                    Tehran, Iran
+                </p>
+            </div>
+
+
+            <!-- Opening Hours -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3 class="h5">Opening Hours</h3>
+
+                <p>
+                    Saturday - Thursday<br>
+                    10:00 AM - 12:00 AM
+                </p>
+            </div>
+
+
+            <!-- Halls -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3 class="h5">Halls</h3>
+
+                <p>
+                    6 Cinema Halls<br>
+                    2 IMAX Halls
+                </p>
+            </div>
+
+
+            <!-- Contact -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h3 class="h5">Contact</h3>
+
+                <p>
+                    Phone: +98 21 1234 5678<br>
+                    Email: info@cinemahub.com
+                </p>
             </div>
 
         </div>
