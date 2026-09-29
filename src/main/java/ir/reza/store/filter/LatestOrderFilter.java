@@ -1,0 +1,44 @@
+package ir.reza.store.filter;
+
+import jakarta.servlet.Filter;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
+import jakarta.servlet.annotation.WebFilter;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
+import java.io.IOException;
+
+@WebFilter("/latest-order")
+public class LatestOrderFilter implements Filter {
+
+    @Override
+    public void doFilter(ServletRequest request,
+                         ServletResponse response,
+                         FilterChain chain)
+            throws IOException, ServletException {
+
+        HttpServletRequest httpRequest =
+                (HttpServletRequest) request;
+
+        HttpServletResponse httpResponse =
+                (HttpServletResponse) response;
+
+        HttpSession session = httpRequest.getSession(false); //false: If Session exists, return it; if not, return null.
+
+        if (session != null &&
+                session.getAttribute("latestOrder") != null) {
+
+            chain.doFilter(request, response);
+
+        } else {
+
+            httpResponse.sendRedirect(
+                    httpRequest.getContextPath() + "/order"
+            );
+        }
+    }
+}
