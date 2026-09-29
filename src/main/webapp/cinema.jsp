@@ -333,9 +333,22 @@
 <!-- Footer -->
 <footer class="container py-4">
 
-    <p class="mb-0">
-        &copy; 2026 CinemaHub
-    </p>
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+
+        <!-- Footer Links -->
+        <div class="d-flex gap-3">
+            <a href="#" class="text-decoration-none">Home</a>
+            <a href="#" class="text-decoration-none">Movies</a>
+            <a href="#" class="text-decoration-none">Cinema</a>
+            <a href="#" class="text-decoration-none">Contact</a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="mb-0">
+            &copy; 2026 CinemaHub. All rights reserved.
+        </p>
+
+    </div>
 
 </footer>
 
