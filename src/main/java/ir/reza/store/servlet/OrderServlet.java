@@ -1,5 +1,6 @@
 package ir.reza.store.servlet;
 
+import jakarta.servlet.http.HttpSession;
 import ir.reza.store.model.Order;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -49,6 +50,9 @@ public class OrderServlet extends HttpServlet {
         );
 
         order.setTotalPrice(totalPrice);
+
+        HttpSession session = request.getSession();
+        session.setAttribute("latestOrder", order);
 
         request.setAttribute("order", order);
 
