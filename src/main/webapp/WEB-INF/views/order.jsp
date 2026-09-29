@@ -1,16 +1,73 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: rezaa
-  Date: 9/29/2026
-  Time: 5:18 AM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%--This is a JSP Directive.
+That is, it tells the JSP Container what settings this page should have.--%>
+
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Create Order</title>
 </head>
 <body>
+
+<h1>Create New Order</h1>
+              <%-- Expression Language (EL) --%>
+<form action="${pageContext.request.contextPath}/order" method="post"> <%--action specifies the destination address of the form.--%>
+    <%--method="post"
+This means that when the user clicks Submit, the data is sent with:
+HTTP POST--%>
+
+    <div>
+        <label for="customerName">Customer Name:</label>
+        <input type="text"
+               id="customerName"
+               name="customerName"
+               required>
+    </div>
+    <%--HTML
+name="customerName"
+    ↓
+Servlet
+request.getParameter("customerName")--%>
+
+    <br>
+
+    <div>
+        <label for="productName">Product Name:</label>
+        <input type="text"
+               id="productName"
+               name="productName"
+               required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="productPrice">Product Price:</label>
+        <input type="number"
+               id="productPrice"
+               name="productPrice"
+               step="0.01"
+               min="0"
+               required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="quantity">Quantity:</label>
+        <input type="number"
+               id="quantity"
+               name="quantity"
+               min="1"
+               required>
+    </div>
+
+    <br>
+
+    <button type="submit">Submit Order</button>
+
+</form>
 
 </body>
 </html>
