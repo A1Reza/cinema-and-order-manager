@@ -57,14 +57,12 @@
 
     <section class="container py-4">
 
-        <h2 class="mb-4">
-            Now Showing
-        </h2>
+        <h2 class="mb-4">Now Showing</h2>
 
         <div class="row g-4">
 
+            <!-- Movie 1 -->
             <div class="col-12 col-md-6 col-lg-4">
-
                 <div class="card h-100">
 
                     <img src="https://placehold.co/600x800"
@@ -78,18 +76,228 @@
                         </h3>
 
                         <p class="card-text">
-                            A science fiction thriller about dreams,
-                            reality, and the human mind.
+                            Genre: Sci-Fi / Thriller
                         </p>
 
-                        <a href="#" class="btn btn-primary">
+                        <p class="card-text">
+                            Duration: 148 min
+                        </p>
+
+                        <p class="card-text">
+                            Rating: 8.8/10
+                        </p>
+
+                        <p class="card-text">
+                            A skilled thief enters people's dreams
+                            to steal and plant ideas.
+                        </p>
+
+                        <button class="btn btn-primary">
                             Book Ticket
-                        </a>
+                        </button>
 
                     </div>
-
                 </div>
+            </div>
 
+
+            <!-- Movie 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img src="https://placehold.co/600x800"
+                         class="card-img-top"
+                         alt="Interstellar Poster">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Interstellar
+                        </h3>
+
+                        <p class="card-text">
+                            Genre: Sci-Fi / Drama
+                        </p>
+
+                        <p class="card-text">
+                            Duration: 169 min
+                        </p>
+
+                        <p class="card-text">
+                            Rating: 8.7/10
+                        </p>
+
+                        <p class="card-text">
+                            Explorers travel through space
+                            searching for a new home for humanity.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Book Ticket
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Movie 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img src="https://placehold.co/600x800"
+                         class="card-img-top"
+                         alt="The Dark Knight Poster">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            The Dark Knight
+                        </h3>
+
+                        <p class="card-text">
+                            Genre: Action / Crime
+                        </p>
+
+                        <p class="card-text">
+                            Duration: 152 min
+                        </p>
+
+                        <p class="card-text">
+                            Rating: 9.0/10
+                        </p>
+
+                        <p class="card-text">
+                            Batman faces a criminal mastermind
+                            who pushes Gotham into chaos.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Book Ticket
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Movie 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img src="https://placehold.co/600x800"
+                         class="card-img-top"
+                         alt="Avatar Poster">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Avatar
+                        </h3>
+
+                        <p class="card-text">
+                            Genre: Sci-Fi / Adventure
+                        </p>
+
+                        <p class="card-text">
+                            Duration: 162 min
+                        </p>
+
+                        <p class="card-text">
+                            Rating: 7.8/10
+                        </p>
+
+                        <p class="card-text">
+                            A marine becomes part of an alien world
+                            and its struggle for survival.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Book Ticket
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Movie 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img src="https://placehold.co/600x800"
+                         class="card-img-top"
+                         alt="Gladiator Poster">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Gladiator
+                        </h3>
+
+                        <p class="card-text">
+                            Genre: Action / Drama
+                        </p>
+
+                        <p class="card-text">
+                            Duration: 155 min
+                        </p>
+
+                        <p class="card-text">
+                            Rating: 8.5/10
+                        </p>
+
+                        <p class="card-text">
+                            A Roman general seeks justice
+                            after losing everything.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Book Ticket
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Movie 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img src="https://placehold.co/600x800"
+                         class="card-img-top"
+                         alt="The Matrix Poster">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            The Matrix
+                        </h3>
+
+                        <p class="card-text">
+                            Genre: Sci-Fi / Action
+                        </p>
+
+                        <p class="card-text">
+                            Duration: 136 min
+                        </p>
+
+                        <p class="card-text">
+                            Rating: 8.7/10
+                        </p>
+
+                        <p class="card-text">
+                            A hacker discovers that reality
+                            is not what it seems.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Book Ticket
+                        </button>
+
+                    </div>
+                </div>
             </div>
 
         </div>
