@@ -43,6 +43,7 @@ request.getParameter("customerName")--%>
     <br>
 
     <div>
+        <%--for specifies which input this label belongs to.--%>
         <label for="productPrice">Product Price:</label>
         <input type="number"
                id="productPrice"
@@ -54,6 +55,8 @@ request.getParameter("customerName")--%>
 
     <br>
 
+    <%--id is mostly used to identify the element on the page.
+But name in Form is very important for passing value to Servlet.--%>
     <div>
         <label for="quantity">Quantity:</label>
         <input type="number"
