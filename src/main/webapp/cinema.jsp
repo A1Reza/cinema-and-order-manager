@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
@@ -14,6 +15,8 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
             rel="stylesheet">
 </head>
+
+<body>
 
 <header class="container py-3">
 
@@ -65,9 +68,17 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
-                    <img src="https://placehold.co/600x800"
-                         class="card-img-top"
-                         alt="Inception Poster">
+                    <div class="position-relative">
+
+                        <img src="https://placehold.co/600x800"
+                             class="card-img-top"
+                             alt="Inception Poster">
+
+                        <span class="position-absolute top-0 end-0 badge bg-danger m-2">
+                            NEW
+                        </span>
+
+                    </div>
 
                     <div class="card-body">
 
@@ -105,9 +116,17 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
-                    <img src="https://placehold.co/600x800"
-                         class="card-img-top"
-                         alt="Interstellar Poster">
+                    <div class="position-relative">
+
+                        <img src="https://placehold.co/600x800"
+                             class="card-img-top"
+                             alt="Interstellar Poster">
+
+                        <span class="position-absolute top-0 end-0 badge bg-primary m-2">
+                            IMAX
+                        </span>
+
+                    </div>
 
                     <div class="card-body">
 
@@ -145,9 +164,17 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
-                    <img src="https://placehold.co/600x800"
-                         class="card-img-top"
-                         alt="The Dark Knight Poster">
+                    <div class="position-relative">
+
+                        <img src="https://placehold.co/600x800"
+                             class="card-img-top"
+                             alt="The Dark Knight Poster">
+
+                        <span class="position-absolute top-0 end-0 badge bg-warning text-dark m-2">
+                            2D
+                        </span>
+
+                    </div>
 
                     <div class="card-body">
 
@@ -185,9 +212,17 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
-                    <img src="https://placehold.co/600x800"
-                         class="card-img-top"
-                         alt="Avatar Poster">
+                    <div class="position-relative">
+
+                        <img src="https://placehold.co/600x800"
+                             class="card-img-top"
+                             alt="Avatar Poster">
+
+                        <span class="position-absolute top-0 end-0 badge bg-success m-2">
+                            3D
+                        </span>
+
+                    </div>
 
                     <div class="card-body">
 
@@ -225,9 +260,17 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
-                    <img src="https://placehold.co/600x800"
-                         class="card-img-top"
-                         alt="Gladiator Poster">
+                    <div class="position-relative">
+
+                        <img src="https://placehold.co/600x800"
+                             class="card-img-top"
+                             alt="Gladiator Poster">
+
+                        <span class="position-absolute top-0 end-0 badge bg-secondary m-2">
+                            2D
+                        </span>
+
+                    </div>
 
                     <div class="card-body">
 
@@ -265,9 +308,17 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
-                    <img src="https://placehold.co/600x800"
-                         class="card-img-top"
-                         alt="The Matrix Poster">
+                    <div class="position-relative">
+
+                        <img src="https://placehold.co/600x800"
+                             class="card-img-top"
+                             alt="The Matrix Poster">
+
+                        <span class="position-absolute top-0 end-0 badge bg-info text-dark m-2">
+                            NEW
+                        </span>
+
+                    </div>
 
                     <div class="card-body">
 
@@ -305,4 +356,6 @@
     </section>
 
 </main>
+
+</body>
 </html>
