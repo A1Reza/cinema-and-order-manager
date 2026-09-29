@@ -15,9 +15,41 @@
             rel="stylesheet">
 </head>
 
-<body>
+<header class="container py-3">
 
-<h1>CinemaHub</h1>
+    <nav class="d-flex justify-content-between align-items-center">
 
-</body>
+        <div>
+            <a href="#" class="text-decoration-none">
+                <h1 class="h3 mb-0">CinemaHub</h1>
+            </a>
+        </div>
+
+        <div class="d-flex gap-3">
+
+            <a href="#" class="text-decoration-none">
+                Home
+            </a>
+
+            <a href="#" class="text-decoration-none">
+                Movies
+            </a>
+
+            <a href="#" class="text-decoration-none">
+                Coming Soon
+            </a>
+
+            <a href="#" class="text-decoration-none">
+                Cinema
+            </a>
+
+            <a href="#" class="text-decoration-none">
+                Contact
+            </a>
+
+        </div>
+
+    </nav>
+
+</header>
 </html>
