@@ -1,13 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>CinemaHub</title>
 
@@ -18,8 +13,8 @@
 
 <body>
 
+<!-- Header and Navigation -->
 <header class="container py-3">
-
     <nav class="d-flex justify-content-between align-items-center">
 
         <div>
@@ -29,47 +24,32 @@
         </div>
 
         <div class="d-flex gap-3">
-
-            <a href="#" class="text-decoration-none">
-                Home
-            </a>
-
-            <a href="#" class="text-decoration-none">
-                Movies
-            </a>
-
-            <a href="#" class="text-decoration-none">
-                Coming Soon
-            </a>
-
-            <a href="#" class="text-decoration-none">
-                Cinema
-            </a>
-
-            <a href="#" class="text-decoration-none">
-                Contact
-            </a>
-
+            <a href="#" class="text-decoration-none">Home</a>
+            <a href="#" class="text-decoration-none">Movies</a>
+            <a href="#" class="text-decoration-none">Coming Soon</a>
+            <a href="#" class="text-decoration-none">Cinema</a>
+            <a href="#" class="text-decoration-none">Contact</a>
         </div>
 
     </nav>
-
 </header>
 
+
+<!-- Main Content -->
 <main>
 
+    <!-- Now Showing -->
     <section class="container py-4">
 
         <h2 class="mb-4">Now Showing</h2>
 
         <div class="row g-4">
 
-            <!-- Movie 1 -->
+            <!-- Inception -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
                     <div class="position-relative">
-
                         <img src="https://placehold.co/600x800"
                              class="card-img-top"
                              alt="Inception Poster">
@@ -77,17 +57,13 @@
                         <span class="position-absolute top-0 end-0 badge bg-danger m-2">
                             NEW
                         </span>
-
                     </div>
 
                     <div class="card-body">
-
-                        <h3 class="card-title">
-                            Inception
-                        </h3>
+                        <h3 class="card-title">Inception</h3>
 
                         <p class="card-text">
-                            Genre: Sci-Fi / Thriller
+                            Sci-Fi / Thriller
                         </p>
 
                         <p class="card-text">
@@ -99,25 +75,23 @@
                         </p>
 
                         <p class="card-text">
-                            A skilled thief enters people's dreams
-                            to steal and plant ideas.
+                            A skilled thief enters people's dreams to steal valuable secrets.
                         </p>
 
-                        <button class="btn btn-primary">
+                        <a href="#" class="btn btn-primary">
                             Book Ticket
-                        </button>
-
+                        </a>
                     </div>
+
                 </div>
             </div>
 
 
-            <!-- Movie 2 -->
+            <!-- Interstellar -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
                     <div class="position-relative">
-
                         <img src="https://placehold.co/600x800"
                              class="card-img-top"
                              alt="Interstellar Poster">
@@ -125,17 +99,13 @@
                         <span class="position-absolute top-0 end-0 badge bg-primary m-2">
                             IMAX
                         </span>
-
                     </div>
 
                     <div class="card-body">
-
-                        <h3 class="card-title">
-                            Interstellar
-                        </h3>
+                        <h3 class="card-title">Interstellar</h3>
 
                         <p class="card-text">
-                            Genre: Sci-Fi / Drama
+                            Sci-Fi / Drama
                         </p>
 
                         <p class="card-text">
@@ -147,25 +117,23 @@
                         </p>
 
                         <p class="card-text">
-                            Explorers travel through space
-                            searching for a new home for humanity.
+                            A team of explorers travels through space to find a new home for humanity.
                         </p>
 
-                        <button class="btn btn-primary">
+                        <a href="#" class="btn btn-primary">
                             Book Ticket
-                        </button>
-
+                        </a>
                     </div>
+
                 </div>
             </div>
 
 
-            <!-- Movie 3 -->
+            <!-- The Dark Knight -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
                     <div class="position-relative">
-
                         <img src="https://placehold.co/600x800"
                              class="card-img-top"
                              alt="The Dark Knight Poster">
@@ -173,17 +141,13 @@
                         <span class="position-absolute top-0 end-0 badge bg-warning text-dark m-2">
                             2D
                         </span>
-
                     </div>
 
                     <div class="card-body">
-
-                        <h3 class="card-title">
-                            The Dark Knight
-                        </h3>
+                        <h3 class="card-title">The Dark Knight</h3>
 
                         <p class="card-text">
-                            Genre: Action / Crime
+                            Action / Crime
                         </p>
 
                         <p class="card-text">
@@ -195,25 +159,23 @@
                         </p>
 
                         <p class="card-text">
-                            Batman faces a criminal mastermind
-                            who pushes Gotham into chaos.
+                            Batman faces a dangerous criminal who brings chaos to Gotham City.
                         </p>
 
-                        <button class="btn btn-primary">
+                        <a href="#" class="btn btn-primary">
                             Book Ticket
-                        </button>
-
+                        </a>
                     </div>
+
                 </div>
             </div>
 
 
-            <!-- Movie 4 -->
+            <!-- Avatar -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
                     <div class="position-relative">
-
                         <img src="https://placehold.co/600x800"
                              class="card-img-top"
                              alt="Avatar Poster">
@@ -221,17 +183,13 @@
                         <span class="position-absolute top-0 end-0 badge bg-success m-2">
                             3D
                         </span>
-
                     </div>
 
                     <div class="card-body">
-
-                        <h3 class="card-title">
-                            Avatar
-                        </h3>
+                        <h3 class="card-title">Avatar</h3>
 
                         <p class="card-text">
-                            Genre: Sci-Fi / Adventure
+                            Sci-Fi / Adventure
                         </p>
 
                         <p class="card-text">
@@ -243,25 +201,23 @@
                         </p>
 
                         <p class="card-text">
-                            A marine becomes part of an alien world
-                            and its struggle for survival.
+                            A marine explores a distant world and becomes involved in its conflict.
                         </p>
 
-                        <button class="btn btn-primary">
+                        <a href="#" class="btn btn-primary">
                             Book Ticket
-                        </button>
-
+                        </a>
                     </div>
+
                 </div>
             </div>
 
 
-            <!-- Movie 5 -->
+            <!-- Gladiator -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
                     <div class="position-relative">
-
                         <img src="https://placehold.co/600x800"
                              class="card-img-top"
                              alt="Gladiator Poster">
@@ -269,17 +225,13 @@
                         <span class="position-absolute top-0 end-0 badge bg-secondary m-2">
                             2D
                         </span>
-
                     </div>
 
                     <div class="card-body">
-
-                        <h3 class="card-title">
-                            Gladiator
-                        </h3>
+                        <h3 class="card-title">Gladiator</h3>
 
                         <p class="card-text">
-                            Genre: Action / Drama
+                            Action / Drama
                         </p>
 
                         <p class="card-text">
@@ -291,25 +243,23 @@
                         </p>
 
                         <p class="card-text">
-                            A Roman general seeks justice
-                            after losing everything.
+                            A Roman general becomes a gladiator and fights for justice and revenge.
                         </p>
 
-                        <button class="btn btn-primary">
+                        <a href="#" class="btn btn-primary">
                             Book Ticket
-                        </button>
-
+                        </a>
                     </div>
+
                 </div>
             </div>
 
 
-            <!-- Movie 6 -->
+            <!-- The Matrix -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
 
                     <div class="position-relative">
-
                         <img src="https://placehold.co/600x800"
                              class="card-img-top"
                              alt="The Matrix Poster">
@@ -317,17 +267,13 @@
                         <span class="position-absolute top-0 end-0 badge bg-info text-dark m-2">
                             NEW
                         </span>
-
                     </div>
 
                     <div class="card-body">
-
-                        <h3 class="card-title">
-                            The Matrix
-                        </h3>
+                        <h3 class="card-title">The Matrix</h3>
 
                         <p class="card-text">
-                            Genre: Sci-Fi / Action
+                            Sci-Fi / Action
                         </p>
 
                         <p class="card-text">
@@ -339,15 +285,14 @@
                         </p>
 
                         <p class="card-text">
-                            A hacker discovers that reality
-                            is not what it seems.
+                            A computer programmer discovers that reality is not what it seems.
                         </p>
 
-                        <button class="btn btn-primary">
+                        <a href="#" class="btn btn-primary">
                             Book Ticket
-                        </button>
-
+                        </a>
                     </div>
+
                 </div>
             </div>
 
@@ -355,7 +300,43 @@
 
     </section>
 
+
+    <!-- Today's Special -->
+    <section class="container py-4">
+
+        <h2 class="mb-4">Today's Special</h2>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+
+            <div>
+                <h3>Movie Night Special</h3>
+
+                <p class="mb-0">
+                    Enjoy a movie ticket with popcorn and a drink.
+                </p>
+            </div>
+
+            <div>
+                <button class="btn btn-success">
+                    Get Special
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
 </main>
+
+
+<!-- Footer -->
+<footer class="container py-4">
+
+    <p class="mb-0">
+        &copy; 2026 CinemaHub
+    </p>
+
+</footer>
 
 </body>
 </html>
