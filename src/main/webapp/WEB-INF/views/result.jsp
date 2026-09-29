@@ -1,4 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" %> <%--Requirement related to JSP Directive--%>
+<%@ page import="java.text.SimpleDateFormat" %>
+
+<%
+    //Scriptlet
+    String message = "Your order has been calculated successfully.";
+%>
+
 
 <!DOCTYPE html>
 <html>
@@ -6,11 +13,20 @@
     <meta charset="UTF-8">
     <title>Order Result</title>
 </head>
+
 <body>
 
 <h1>Order Result</h1>
 
-<h2>Order Information</h2>
+<p>
+    <%= message %>
+</p>
+
+<p>
+    Current Date and Time:
+    <%= new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new java.util.Date()) %>
+    <%--JSP Expression: That is, the result of the Expression is placed directly in the Response.--%>
+</p>
 
 <%--This is Expression Language.
 That is, JSP says:
