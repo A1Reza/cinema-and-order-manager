@@ -17,7 +17,6 @@ public class Order {
         this.productName = productName;
         this.productPrice = productPrice;
         this.quantity = quantity;
-        this.totalPrice = productPrice * quantity;
     }
 
     public String getCustomerName() {

@@ -1,5 +1,6 @@
 package ir.reza.store.servlet;
 
+import ir.reza.store.model.Order;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -19,6 +20,39 @@ public class OrderServlet extends HttpServlet {
 
         /* Request Forwarding */
         request.getRequestDispatcher("/WEB-INF/views/order.jsp")
+                .forward(request, response);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request,
+                          HttpServletResponse response)
+            throws ServletException, IOException {
+
+        String customerName = request.getParameter("customerName");
+        String productName = request.getParameter("productName");
+
+        double productPrice = Double.parseDouble(
+                request.getParameter("productPrice")
+        );
+
+        int quantity = Integer.parseInt(
+                request.getParameter("quantity")
+        );
+
+        double totalPrice = productPrice * quantity;
+
+        Order order = new Order(
+                customerName,
+                productName,
+                productPrice,
+                quantity
+        );
+
+        order.setTotalPrice(totalPrice);
+
+        request.setAttribute("order", order);
+
+        request.getRequestDispatcher("/WEB-INF/views/result.jsp")
                 .forward(request, response);
     }
 }
