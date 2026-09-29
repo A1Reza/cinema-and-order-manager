@@ -1,13 +1,32 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
+<%@ page contentType="text/html;charset=UTF-8" %>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <meta charset="UTF-8">
+    <title>Online Store</title>
 </head>
 <body>
-<h1><%= "REZA_ASADIPOUR_HW28_Maktab146" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<h1><%= "REZA_ASADIPOUR_HW28_Maktab146" %></h1>
+<h2>Welcome to Online Store</h2>
+
+<h2>Order Management</h2>
+
+<ul>
+    <li>
+        <a href="${pageContext.request.contextPath}/order">
+            Create New Order
+        </a>
+    </li>
+
+    <li>
+        <a href="${pageContext.request.contextPath}/latest-order">
+            View Latest Order
+        </a>
+    </li>
+</ul>
+
 </body>
 </html>

@@ -65,5 +65,12 @@ getCustomerName()--%>
     Create Another Order
 </a>
 
+<br>
+<br>
+
+<a href="${pageContext.request.contextPath}/latest-order">
+    View Latest Order
+</a>
+
 </body>
 </html>
