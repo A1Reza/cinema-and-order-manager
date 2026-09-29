@@ -1,5 +1,10 @@
 package ir.reza.store.servlet;
 
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpSession;
 import ir.reza.store.model.Order;
 import jakarta.servlet.ServletException;
@@ -19,6 +24,30 @@ public class OrderServlet extends HttpServlet {
                          HttpServletResponse response)
             throws ServletException, IOException {
 
+        Cookie[] cookies = request.getCookies();
+
+        if (cookies != null) {
+
+            for (Cookie cookie : cookies) {
+
+                if ("customerName".equals(cookie.getName())) {
+
+                    String customerName =
+                            URLDecoder.decode(
+                                    cookie.getValue(),
+                                    StandardCharsets.UTF_8
+                            );
+
+                    request.setAttribute(
+                            "customerName",
+                            customerName
+                    );
+
+                    break;
+                }
+            }
+        }
+
         /* Request Forwarding */
         request.getRequestDispatcher("/WEB-INF/views/order.jsp")
                 .forward(request, response);
@@ -30,6 +59,18 @@ public class OrderServlet extends HttpServlet {
             throws ServletException, IOException {
 
         String customerName = request.getParameter("customerName");
+
+        String encodedCustomerName =
+                URLEncoder.encode(customerName, StandardCharsets.UTF_8);
+
+        Cookie customerNameCookie =
+                new Cookie("customerName", encodedCustomerName);
+
+        customerNameCookie.setMaxAge(7 * 24 * 60 * 60);
+        customerNameCookie.setPath(request.getContextPath());
+
+        response.addCookie(customerNameCookie);
+
         String productName = request.getParameter("productName");
 
         double productPrice = Double.parseDouble(

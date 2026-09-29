@@ -20,11 +20,18 @@ HTTP POST--%>
     <div>
         <label for="customerName">Customer Name:</label>
         <input type="text"
-               id="customerName"
-               name="customerName"
-               required>
+                id="customerName"
+                name="customerName"
+                value="${customerName}"
+                required>
     </div>
-    <%--HTML
+    <%--
+If the Servlet had a customerName in the Request, put its value in the input.
+If the Cookie does not exist:
+customerName = null
+The input will be empty.
+
+HTML
 name="customerName"
     ↓
 Servlet
