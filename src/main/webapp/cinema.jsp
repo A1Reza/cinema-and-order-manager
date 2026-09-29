@@ -52,4 +52,49 @@
     </nav>
 
 </header>
+
+<main>
+
+    <section class="container py-4">
+
+        <h2 class="mb-4">
+            Now Showing
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card h-100">
+
+                    <img src="https://placehold.co/600x800"
+                         class="card-img-top"
+                         alt="Inception Poster">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Inception
+                        </h3>
+
+                        <p class="card-text">
+                            A science fiction thriller about dreams,
+                            reality, and the human mind.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Book Ticket
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
 </html>
